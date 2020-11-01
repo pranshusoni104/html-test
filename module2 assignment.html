@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>assignment 2</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-weight: bold;
+			margin-top: 40px;
+
+		}
+		div{
+			margin-top: 80px;
+		}
+		section{
+			font-size: large;
+			font-weight: bold;
+			color:#181818;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			/*position: relative;*/
+		}
+		h3{
+		position: relative;
+		top: -1px;
+		left: 80%;
+		margin: 0;
+		width: 20%;
+		border: 1px solid black;
+		font-weight: bold;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+	#h{
+		color: white;
+	}
+
+@media(min-width: 992px){
+
+	.col-lg-1,.col-lg-4,.col-lg-3{
+		float: left;
+		border: 3px solid black;
+		background-color: darkgray;
+		margin: 1%;
+		height: 180px;
+		box-sizing: border-box;
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+	.col-lg-3{
+		width: 31%;
+	}
+}		
+
+@media (max-width: 767px){
+
+	.col-xs-12{
+		float: left;
+		border: 3px solid black;
+		background-color: darkgray;
+		margin-left: 10%;
+		margin-bottom: 3%;
+		height: 165px;
+		box-sizing: border-box;
+		width: 80%;
+	}
+	h1{
+		margin-top: 30px;
+	}
+	div{
+			margin-top: 20px;
+			
+		}
+}		
+@media(min-width: 768px) and (max-width: 991px){
+
+	.col-md-1,.col-md-4,.col-md-6{
+		float: left;
+		border: 3px solid black;
+		background-color: darkgray;
+		margin: 1%;
+		margin-right: 1%;
+		height: 180px;
+		box-sizing: border-box;
+	}
+	.col-md-4{
+		width: 33%;
+	}
+	.col-md-6{
+		width: 48%;
+	}
+	#p3{
+		width: 98%;
+	}
+}		
+
+
+	</style>
+</head>
+<body>
+   <h1>Our menu</h1>
+
+ <div >
+ 	<section id="p1" class="col-lg-3 col-md-6 col-xs-12">
+ 		<h3 style="background-color: lightpink;">Chicken</h3>
+ 		This is one paragraph.This is my first assignment of coursera test.This text in enclosed inside a div element.This assignment is an example of responsive design.
+ 		
+ 	</section>
+ 	<section id="p2" class="col-lg-3 col-md-6 col-xs-12">
+ 		<h3 id="h" style="background-color: indianred;">Beef</h3>
+ 		This is one paragraph.This is my first assignment of coursera test.This text in enclosed inside a div element.This assignment is an example of responsive design.
+ 	</section>
+ 	<section id="p3" class="col-lg-3 col-md-6 col-xs-12" style="float: left" >
+ 		<h3  style="background-color: khaki;">Sushi</h3>
+ 		This is one paragraph.This is my first assignment of coursera test.This text in enclosed inside a div element.This assignment is an example of responsive design.
+ 	</section>
+
+ </div>
+</body>
+</html>
